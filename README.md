@@ -6,9 +6,13 @@
 | 2 | Write your first Java program | [cepex link-572919](https://ceapex.visualstudio.com/CPS/_workitems/edit/572919) | [pull/25573](https://github.com/MicrosoftDocs/learn-pr/pull/25573) | [Link to release/module](https://review.docs.microsoft.com/en-us/learn/modules/java-write-your-first-program/?branch=NEW-java-write-your-first-program) |          |
 | 3 | Introduction to Azure Web PubSub | [cepex link-582653](https://ceapex.visualstudio.com/CPS/_workitems/edit/582653) | [pull/26367](https://github.com/MicrosoftDocs/learn-pr/pull/26367/) |                     |          |
 | 4 | Introduction to Azure Container Apps | [cepex link-597884](https://ceapex.visualstudio.com/CPS/_workitems/edit/597884) | [pull/26368](https://github.com/MicrosoftDocs/learn-pr/pull/26368/) |     |     |
-| 5 | Introduction to Azure Static Apps | [cepex link-604867](https://ceapex.visualstudio.com/CPS/_workitems/edit/604867) | [pull/123]() |     |     |
+| 5 | Introduction to Azure Static Apps | [cepex link-604867](https://ceapex.visualstudio.com/CPS/_workitems/edit/604867) | [pull/27191](https://github.com/MicrosoftDocs/learn-pr/pull/27191) |     |     |
 | 6 | Introduction to Azure Functions | [cepex link-604881](https://ceapex.visualstudio.com/CPS/_workitems/edit/604881) | [pull/27139](https://github.com/MicrosoftDocs/learn-pr/pull/27139) |     |     |
+
+
+<!--
 | 7 | module_name | [cepex link-xxx] | [pull/123]() |      |      |
 | 8 | module_name | [cepex link-xxx] | [pull/123]() |      |      |
 | 9 | module_name | [cepex link-xxx] | [pull/123]() |      |      |
 | 10 | module_name | [cepex link-xxx] | [pull/123]() |      |      |
+-->  
