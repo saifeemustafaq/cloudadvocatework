@@ -8,11 +8,11 @@
 | 4 | Introduction to Azure Container Apps | [cepex link-597884](https://ceapex.visualstudio.com/CPS/_workitems/edit/597884) | [pull/26368](https://github.com/MicrosoftDocs/learn-pr/pull/26368/) |     |     |
 | 5 | Introduction to Azure Static Apps | [cepex link-604867](https://ceapex.visualstudio.com/CPS/_workitems/edit/604867) | [pull/27191](https://github.com/MicrosoftDocs/learn-pr/pull/27191) |     |     |
 | 6 | Introduction to Azure Functions | [cepex link-604881](https://ceapex.visualstudio.com/CPS/_workitems/edit/604881) | [pull/27139](https://github.com/MicrosoftDocs/learn-pr/pull/27139) |     |     |
-
+| 7 | Introduction to Azure App Service | [cepex link-635944](https://ceapex.visualstudio.com/CPS/_workitems/edit/635944) | [pull/123]() |      |      |
+| 8 | Introduction to Azure SignalR | [cepex link-635947](https://ceapex.visualstudio.com/CPS/_workitems/edit/635947) | [pull/123]() |      |      |
 
 <!--
-| 7 | module_name | [cepex link-xxx] | [pull/123]() |      |      |
-| 8 | module_name | [cepex link-xxx] | [pull/123]() |      |      |
+
 | 9 | module_name | [cepex link-xxx] | [pull/123]() |      |      |
 | 10 | module_name | [cepex link-xxx] | [pull/123]() |      |      |
 -->  
