@@ -11,6 +11,7 @@
 | 7 | Introduction to Azure App Service | [cepex link-635944](https://ceapex.visualstudio.com/CPS/_workitems/edit/635944) | [pull/27733](https://github.com/MicrosoftDocs/learn-pr/pull/27733) |      |
 | 8 | Introduction to Azure SignalR | [cepex link-635947](https://ceapex.visualstudio.com/CPS/_workitems/edit/635947) | [pull/27734](https://github.com/MicrosoftDocs/learn-pr/pull/27734) |      |
 | 9 | Deploy your first container app | cepex link-xxx | [pull/28258](https://github.com/MicrosoftDocs/learn-pr/pull/28258) |      |
+| 10 | module_name | [cepex link-xxx] | [pull/123]() |      |
 
 <!--
 
