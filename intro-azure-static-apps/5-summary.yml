@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-azure-static-apps.summary
+title: Summary
+metadata:
+  title: Summary
+  description: This unit contains a summary of Azure Static Web Apps and what you have learned so far.
+  ms.date: 04/27/2020
+  author: saifeemustafaq
+  ms.author: msaifee
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+durationInMinutes: 2
+content: |
+  [!include[](includes/5-summary.md)]

@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-azure-static-apps.what-azure-static-web-apps
+title: What is Azure Static Web Apps?
+metadata:
+  title: What is Azure Static Web Apps?
+  description: In this unit, you learn about Azure Static Web Apps when it best fits your architectural needs.
+  author: saifeemustafaq
+  ms.author: msaifee
+  ms.date: 04/14/2020
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+durationInMinutes: 2
+content: |
+  [!include[](includes/2-what-azure-static-web-apps.md)]

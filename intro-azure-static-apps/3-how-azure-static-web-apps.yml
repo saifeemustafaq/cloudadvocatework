@@ -1,0 +1,25 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-azure-static-apps.how-azure-static-web-apps
+title: How does Azure Static Web Apps work?
+metadata:
+  title: How does Azure Static Web Apps work?
+  description: In this unit, you learn about how Azure Static Web Apps works along with some foundational concepts.
+  author: saifeemustafaq
+  ms.author: msaifee
+  ms.date: 04/14/2020
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-how-azure-static-web-apps.md)]
+quiz:
+  title: Check your knowledge
+  questions:
+    - content: "You have to configure a virtual machine from scratch to get the Azure Static app running."
+      choices:
+        - content: "True"
+          isCorrect: false
+          explanation: "Incorrect! You don't have to configure a virtual machine from scratch to get the Azure Static app running."
+        - content: "False"
+          isCorrect: true
+          explanation: "Correct!"

@@ -1,0 +1,35 @@
+### YamlMime:Module
+uid: learn.intro-azure-static-apps
+metadata:
+  title: Introduction to
+  description: Learn how to
+  ms.date: 06/04/2020
+  author: saifeemustafaq
+  ms.author: msaifee
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Introduction to
+summary: Learn how to
+abstract: |
+  In this module you'll learn:
+  - What is Azure Static Web Apps
+  - How Azure Static Web Apps works
+  - When to use Azure Static Web Apps
+iconUrl: /learn/achievements/intro-azure-static-apps.svg
+levels:
+  - beginner
+roles:
+  - developer
+  - student
+products:
+  - azure
+prerequisites: None
+units:
+  - learn.intro-azure-static-apps.introduction
+  - learn.intro-azure-static-apps.what-azure-static-web-apps
+  - learn.intro-azure-static-apps.how-azure-static-web-apps
+  - learn.intro-azure-static-apps.when-use-azure-static-web-apps
+  - learn.intro-azure-static-apps.summary
+
+badge:
+  uid: learn.intro-azure-static-apps.badge

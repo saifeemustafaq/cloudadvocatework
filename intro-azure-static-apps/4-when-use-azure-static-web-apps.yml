@@ -1,0 +1,23 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-azure-static-apps.when-use-azure-static-web-apps
+title: When to use Azure Static Web Apps?
+metadata:
+  title: When to use Azure Static Web Apps?
+  description: In this unit, you learn when to use Azure Static Web Apps.
+  ms.date: 04/27/2020
+  author: saifeemustafaq
+  ms.author: msaifee
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+durationInMinutes: 2
+content: |
+  [!include[](includes/4-when-use-azure-static-web-apps.md)]
+quiz:
+  title: Check your knowledge
+  questions:
+    - content: "Azure Static Apps is for developers and people of all skill level."
+      choices:
+        - content: "Yes, Azure Static apps can be used easily but all audience"
+          isCorrect: true
+        - content: "No, Azure Static Apps is designed only for developers who are expert in development."
+          isCorrect: false
