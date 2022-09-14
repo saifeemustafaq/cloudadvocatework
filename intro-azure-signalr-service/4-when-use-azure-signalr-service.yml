@@ -1,0 +1,46 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-azure-signalr-service.when-use-azure-signalr-service
+title: When to use Azure SignalR Service?
+metadata:
+  title: When to use Azure SignalR Service?
+  description: In this unit, you learn when to use Azure SignalR Service.
+  author: saifeemustafaq
+  ms.author: msaifee
+  ms.date: 06/20/2022
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+durationInMinutes: 2
+content: |
+  [!include[](includes/4-when-use-azure-signalr-service.md)]
+quiz:
+  title: Check your knowledge
+  questions:
+    - content: A stock marketing application developer who decides to use Azure
+        SignalR Service will?
+      choices:
+        - content: Have the security, availability, performance, and scalability all
+            managed by Azure service level agreement.
+          isCorrect: true
+          explanation: ""
+        - content: Must manage the security, availability, performance, scalability of the
+            app.
+          isCorrect: false
+          explanation: ""
+        - content: Must manage the security and performance of the app, while Azure
+            manages the availability and scalability of the app.
+          isCorrect: false
+          explanation: ""
+    - content: "A web application developer was given a job contract to develop a chat
+        room web app with real-time communication features for a team working on
+        a project. Which of the following statements will influence his decision
+        for choosing Azure SignalR Service service? "
+      choices:
+        - content: Support for multiple clients
+          isCorrect: true
+          explanation: ""
+        - content: Low latency
+          isCorrect: false
+          explanation: ""
+        - content: Scalability
+          isCorrect: false
+          explanation: ""

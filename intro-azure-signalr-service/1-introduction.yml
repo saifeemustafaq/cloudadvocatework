@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-azure-signalr-service.introduction
+title: Introduction
+metadata:
+  title: Introduction
+  description: Introduction
+  author: saifeemustafaq
+  ms.author: msaifee
+  ms.date: 06/20/2022
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+durationInMinutes: 2
+content: |
+  [!include[](includes/1-introduction.md)]

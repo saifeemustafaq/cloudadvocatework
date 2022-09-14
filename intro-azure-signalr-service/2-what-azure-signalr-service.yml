@@ -1,0 +1,35 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-azure-signalr-service.what-azure-signalr-service
+title: What is Azure SignalR Service?
+metadata:
+  title: What is Azure SignalR Service?
+  description: In this unit, you'll look into what Azure SignalR Service is and
+    what are it's functions, we'll also study some key terminologies to better
+    understand Azure SignalR services and when it best fits your architectural
+    needs.
+  author: saifeemustafaq
+  ms.author: msaifee
+  ms.date: 06/20/2022
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+durationInMinutes: 2
+content: |
+  [!include[](includes/2-what-azure-signalr-service.md)]
+quiz:
+  title: Check your knowledge
+  questions:
+    - content:
+        Which of the following best describes how SignalR implements real-time
+        communication?
+      choices:
+        - content:
+            It uses the RPCs to maintain a persistent connection between the server
+            and clients.
+          isCorrect: true
+          explanation: ""
+        - content: It is host agnostic and supports numerous transports.
+          isCorrect: false
+          explanation: ""
+        - content: It uses the Hubs API to push notifications from server to client.
+          isCorrect: false
+          explanation: ""

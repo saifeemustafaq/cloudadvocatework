@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-azure-signalr-service.how-azure-signalr-service-works
+title: How Azure SignalR Service works?
+metadata:
+  title: How Azure SignalR Service works?
+  description: In this unit, you will learn the major components of the service as
+    well as the architecture patterns at your disposal along with some
+    foundational concepts.
+  author: saifeemustafaq
+  ms.author: msaifee
+  ms.date: 06/20/2022
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-how-azure-signalr-service-works.md)]
+quiz:
+  title: Check your knowledge
+  questions:
+    - content: Where does Azure SignalR service re-establish a broken connection?
+      choices:
+        - content: From the server side
+          isCorrect: true
+          explanation: ""
+        - content: Through the endpoints
+          isCorrect: false
+          explanation: ""
+        - content: From the client side
+          isCorrect: false
+          explanation: ""
