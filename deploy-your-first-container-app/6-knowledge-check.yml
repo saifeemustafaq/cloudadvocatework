@@ -1,0 +1,178 @@
+### YamlMime:ModuleUnit
+uid: learn.azure.deploy-your-first-container-app.knowledge-check
+title: Knowledge check
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: Let us check your understanding of deploying first Container App on Azure
+  ms.date: 07/10/2022
+  author: saifeemustafaq
+  ms.author: msaifee
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+durationInMinutes: 3
+content: ""
+quiz:
+  title: Check your knowledge
+  questions:
+    - content: Azure Container Apps uses Kubernetes as Orchestration mechanism to
+        deploy and manage containers
+      choices:
+        - content: It uses an Orchestration, which is native to Azure
+          isCorrect: false
+          explanation: Incorrect. It uses Kubernetes as Orchestrator to deploy and manage
+            containers
+        - content: Correct. it uses Kubernetes as Orchestrator to deploy and manage
+            containers
+          isCorrect: true
+        - content: Orchestration is the responsibility of the end user; Azure only
+            provides the infrastructure
+          isCorrect: false
+          explanation: Incorrect. It uses Kubernetes as Orchestrator to deploy and manage
+            containers
+    - content: An AKS cluster has to be provisioned prior to the deployment of an
+        Azure Container App Environment
+      choices:
+        - content: This will be taken care of by the Container App service
+          isCorrect: true
+          explanation: Correct. Container App service makes it completely a black box for
+            end user by managing the entire kubernetes infrastructure
+        - content: A basic AKS cluster has to be present while deploying a Container App
+            Environment
+          isCorrect: false
+          explanation: Incorrect. Container App service makes it completely a black box
+            for end user by managing the entire kubernetes infrastructure
+        - content: A Kubernetes cluster has to be provisioned. It can be a cluster of any
+            kind - managed or unmanaged, running on Azure Infrastructure
+          isCorrect: false
+          explanation: Incorrect. Container App service makes it completely a black box
+            for end user by managing the entire kubernetes infrastructure
+    - content: A Single Azure Container App environment is mapped to an AKS cluster
+        behind the scene
+      choices:
+        - content: There's a 1:1 mapping between a container App Environment and an AKS
+            cluster behind the scene
+          isCorrect: false
+          explanation: Incorrect. Although for Preview version, the mapping is 1:1 but
+            ultimate goal is to make it a black box for the end users. So the
+            deployment can actually happen across multiple clusters,
+            availability zones etc.
+        - content: The mapping is between a container App Environment and an unmanaged K8s
+            cluster behind the scene chosen by Container App runtime
+          isCorrect: false
+          explanation: Incorrect. Although for Preview version, the mapping is 1:1 but
+            ultimate goal is to make it a black box for the end users. So the
+            deployment can actually happen across multiple clusters,
+            availability zones etc.
+        - content: This is completely a black box for the users; Container App service
+            decides this based on various parameters
+          isCorrect: true
+          explanation: Correct. Although for Preview version, the mapping is 1:1 but
+            ultimate goal is to make it a black box for the end users. So the
+            deployment can actually happen across multiple clusters,
+            availability zones etc.
+    - content: Container App works only with Http triggers
+      choices:
+        - content: It supports all KEDA scalers
+          isCorrect: true
+          explanation: Correct. For more information, see
+            https://docs.microsoft.com/azure/container-apps/scale-app#scale-triggers
+        - content: It supports all KEDA scalers as well as KNative scalers
+          isCorrect: false
+          explanation: Incorrect. Only KEDA scalers are supported. For more information,
+            see
+            https://docs.microsoft.com/azure/container-apps/scale-app#scale-triggers
+        - content: Non-Http triggers aren't supported as of now
+          isCorrect: false
+          explanation: Incorrect. Only KEDA scalers are supported. For more information,
+            see
+            https://docs.microsoft.com/azure/container-apps/scale-app#scale-triggers
+    - content: Container App supports Blue/Green deployment
+      choices:
+        - content: Only the Canary deployment is supported; not the Blue/Green
+          isCorrect: false
+          explanation: Incorrect. Users can use Revision Management and Traffic Splitting
+            features to achieve this easily in Container Apps
+        - content: Yes, as it supports Traffic Splitting
+          isCorrect: true
+          explanation: Correct. Users can use Revision Management and Traffic Splitting
+            features to achieve this easily in Container Apps
+        - content: it's the responsibility of the end user to implement this
+          isCorrect: false
+          explanation: Incorrect. Users can use Revision Management and Traffic Splitting
+            features to achieve this easily in Container Apps
+    - content: Container Apps can be accessed only from with the same Environment
+      choices:
+        - content: This is the out-of-the-box Security provided by Container Apps; no
+            public access at all
+          isCorrect: false
+          explanation: Incorrect. Container Apps support multiple access mechanisms -
+            Public, Internal and Vnet Only
+        - content: Container Apps support multiple access mechanisms
+          isCorrect: true
+          explanation: Correct. Container Apps support multiple access mechanisms -
+            Public, Internal and Vnet Only
+        - content: Container Apps can be created without any environment also making it
+            publicly accessible
+          isCorrect: false
+          explanation: Incorrect. Container Apps support multiple access mechanisms -
+            Public, Internal and Vnet Only
+    - content: Authentication is in-built into Container Apps
+      choices:
+        - content: Users need to bring in their own choice of Security framework
+          isCorrect: false
+          explanation: Incorrect. For more information, see
+            https://docs.microsoft.com/azure/container-apps/authentication
+        - content: Only B2B scenarios are supported out of the box; B2C isn't yet there
+          isCorrect: false
+          explanation: Incorrect. For more information, see
+            https://docs.microsoft.com/azure/container-apps/authentication
+        - content: This is in-built with support for a wide variety of Authentication
+            providers
+          isCorrect: true
+          explanation: Correct. For more information, see
+            https://docs.microsoft.com/azure/container-apps/authentication
+    - content: Autoscaling of a Container App is performed and managed by the service
+        itself; no control for the end users
+      choices:
+        - content: Users can choose to define scaling parameters
+          isCorrect: true
+          explanation: Correct. Refer to this link for details
+            https://docs.microsoft.com/azure/container-apps/scale-app
+        - content: Yes, this is in-built and can't be changed or modified
+          isCorrect: false
+          explanation: Incorrect. Refer to this link for details
+            https://docs.microsoft.com/azure/container-apps/scale-app
+        - content: There isn't Autoscaling; Scaling is manual
+          isCorrect: false
+          explanation: Incorrect. Refer to this link for details
+            https://docs.microsoft.com/azure/container-apps/scale-app
+    - content: Modifying or Deleting Secrets initiates a new revision of the Container
+        App to be deployed
+      choices:
+        - content: The change in Secret is a configurational change and hence a new
+            deployment of the Container app is initiated
+          isCorrect: false
+          explanation: Incorrect. Refer to this link for details
+            https://docs.microsoft.com/en-us/azure/container-apps/manage-secrets?tabs=arm-template
+        - content: Updated or removed secret doesn't automatically restart a revision
+          isCorrect: true
+          explanation: Correct. Refer to this link for details
+            https://docs.microsoft.com/en-us/azure/container-apps/manage-secrets?tabs=arm-template
+        - content: Any update to Container App environment or configuration would trigger
+            a revision update
+          isCorrect: false
+          explanation: Incorrect. Refer to this link for details
+            https://docs.microsoft.com/en-us/azure/container-apps/manage-secrets?tabs=arm-template
+    - content: Users are charged for all Revisions of a Container App Environment
+      choices:
+        - content: The pricing is based on an App Service plan created during Container
+            App deployment
+          isCorrect: false
+          explanation: Incorrect. Users are charged only for the Active Revisions
+        - content: Only Active Revisions are charged back to the user
+          isCorrect: true
+          explanation: Correct. Users are charged only for the Active Revisions
+        - content: Users are charged for all the revisions that they've deployed
+          isCorrect: false
+          explanation: Incorrect. Users are charged only for the Active Revisions

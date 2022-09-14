@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.azure.deploy-your-first-container-app.exercise-secure-your-container-app
+title: Exercise - Secure access to your Container App
+metadata:
+  title: Exercise - Secure access to your Container App
+  description: A step-by-step guide to implement guardrail around Container Apps
+    and restrict access to it
+  ms.date: 07/10/2022
+  author: saifeemustafaq
+  ms.author: msaifee
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+durationInMinutes: 8
+content: |
+  [!include[](includes/5-exercise-secure-your-container-app.md)]

@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.azure.deploy-your-first-container-app.container-apps-concepts
+title: Concepts of Azure Container Apps
+metadata:
+  title: Concepts of Azure Container Apps
+  description: A deep insight into some of the major concepts of Azure Container Apps
+  ms.date: 07/10/2022
+  author: saifeemustafaq
+  ms.author: msaifee
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-container-apps-concepts.md)]

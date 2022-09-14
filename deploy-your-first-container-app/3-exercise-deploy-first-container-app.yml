@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.azure.deploy-your-first-container-app.exercise-deploy-first-container-app
+title: Exercise - Deploy your first Container App
+metadata:
+  title: Exercise - Deploy your first Container App
+  description: A step-by-step guide to deploy a Container App and the
+    corresponding environment
+  ms.date: 07/10/2022
+  author: saifeemustafaq
+  ms.author: msaifee
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+durationInMinutes: 7
+content: |
+  [!include[](includes/3-exercise-deploy-first-container-app.md)]

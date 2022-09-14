@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.azure.deploy-your-first-container-app.summary
+title: Summary
+metadata:
+  unitType: summary
+  title: Summary
+  description: Read this summary of what you have learned while deploying your
+    first container app on Azure
+  ms.date: 07/10/2022
+  author: saifeemustafaq
+  ms.author: msaifee
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+durationInMinutes: 2
+content: |
+  [!include[](includes/7-summary.md)]

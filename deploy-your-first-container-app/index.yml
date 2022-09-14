@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn.deploy-your-first-container-app
+metadata:
+  title: Deploy Your First Container App on Azure
+  description: Deploy Your First Container App
+  ms.date: 07/10/2022
+  author: saifeemustafaq
+  ms.author: msaifee
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Deploy Your First Container App on Azure
+summary: Explore how to deploy Container Apps on Azure and its Features,
+  Concepts and Scenarios
+abstract: |
+  In this module, you'll learn:
+  - What is Container App and when to use it?
+  - Understand Basic and Security Concepts of Container Apps
+  - Create and Deploy a Container App on Azure  
+  - Secure access to Container Apps
+prerequisites: |
+  - Basic knowledge of Containers and Kubernetes
+iconUrl: /learn/achievements/generic-badge.svg
+badge:
+  uid: learn.azure.generic-badge.badge
+levels:
+  - intermediate
+roles:
+  - solution-architect
+  - developer
+products:
+  - azure
+  - azure-container-apps
+  - azure-functions
+  - azure-kubernetes-service
+units:
+  - learn.azure.deploy-your-first-container-app.introduction
+  - learn.azure.deploy-your-first-container-app.container-apps-concepts
+  - learn.azure.deploy-your-first-container-app.exercise-deploy-first-container-app
+  - learn.azure.deploy-your-first-container-app.container-apps-security-concepts
+  - learn.azure.deploy-your-first-container-app.exercise-secure-your-container-app
+  - learn.azure.deploy-your-first-container-app.knowledge-check
+  - learn.azure.deploy-your-first-container-app.summary
