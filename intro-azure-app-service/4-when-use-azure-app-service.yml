@@ -1,0 +1,40 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-azure-app-service.when-use-azure-app-service
+title: When to use Azure App Service?
+metadata:
+  title: When to use Azure App Service?
+  description: In this unit, you learn when to use Azure App Service.
+  author: saifeemustafaq
+  ms.author: msaifee
+  ms.date: 06/20/2022
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+durationInMinutes: 2
+content: |
+  [!include[](includes/4-when-use-azure-app-service.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+    - content: "Which of the following is the most suitable way to gain visibility into application health?"
+      choices:
+        - content: "Load balancing"
+          isCorrect: false
+          explanation: ""
+        - content: "App Insights telemetry "
+          isCorrect: true
+          explanation: ""
+        - content: Source code inspection"
+          isCorrect: false
+          explanation: ""
+
+    - content: "Which of the following does not represent Azure App Service’s offerings?"
+      choices:
+        - content: "Performance Monitoring"
+          isCorrect: false
+          explanation: ""
+        - content: "Infrastructure maintenance"
+          isCorrect: false
+          explanation: ""
+        - content: "Remote desktop support"
+          isCorrect: true
+          explanation: ""

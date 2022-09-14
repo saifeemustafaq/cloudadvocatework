@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-azure-container-apps.introduction
+title: Introduction
+metadata:
+  title: Introduction
+  description: Introduction
+  author: saifeemustafaq
+  ms.author: msaifee
+  ms.date: 04/28/2022
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+durationInMinutes: 1
+content: |
+  [!include[](includes/1-introduction.md)]

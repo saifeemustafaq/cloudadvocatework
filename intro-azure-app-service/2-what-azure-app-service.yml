@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-azure-app-service.what-azure-app-service
+title: What is Azure App Service?
+metadata:
+  title: What is Azure App Service?
+  description: In this unit, you learn about Azure App Service when it best fits your architectural needs.
+  author: saifeemustafaq
+  ms.author: msaifee
+  ms.date: 06/20/2022
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-what-azure-app-service.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+    - content: "What is App Service used for?"
+      choices:
+        - content: "For running web and API applications in Azure"
+          isCorrect: false
+          explanation: ""
+        - content: "For running the backend for mobile applications in Azure"
+          isCorrect: false
+          explanation: ""
+        - content: "Both A and B"
+          isCorrect: true
+          explanation: ""
+
+    - content: "CI/CD options available with App Service:"
+      choices:
+        - content: "Git, GitHub, GitHub Actions"
+          isCorrect: false
+          explanation: ""
+        - content: "Atlassian Bitbucket, Azure DevOps, Docker Hub, and Azure Container Registry."
+          isCorrect: false
+          explanation: ""
+        - content: "Both A and B"
+          isCorrect: true
+          explanation: ""
+
+    - content: "Which of the following best describes Azure App Service?"
+      choices:
+        - content: "Service for communication between Azure applications."
+          isCorrect: false
+          explanation: ""
+        - content: "A fully managed PaaS for hosting your applications."
+          isCorrect: true
+          explanation: ""
+        - content: "Azure Virtual Machine with applications pre-installed."
+          isCorrect: false
+          explanation: ""

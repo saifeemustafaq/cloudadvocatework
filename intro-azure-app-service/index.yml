@@ -1,0 +1,33 @@
+### YamlMime:Module
+uid: learn.intro-azure-app-service
+metadata:
+  title: Introduction to
+  description: Learn how to
+  ms.date: 06/20/2022
+  author: saifeemustafaq
+  ms.author: msaifee
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Introduction to Azure App Service
+summary: Learn how to use Azure App Service
+abstract: |
+  In this module you will:
+  - What is Azure App Service
+  - How Azure App Service works
+  - When to use Azure App Service
+iconUrl: /learn/achievements/intro-azure-app-service.svg
+levels:
+  - beginner
+roles:
+  - developer
+products:
+  - azure-app-service
+prerequisites: None
+units:
+  - learn.intro-azure-app-service.introduction
+  - learn.intro-azure-app-service.what-azure-app-service
+  - learn.intro-azure-app-service.how-azure-app-service-works
+  - learn.intro-azure-app-service.when-use-azure-app-service
+  - learn.intro-azure-app-service.summary
+badge:
+  uid: learn.intro-azure-app-service.badge

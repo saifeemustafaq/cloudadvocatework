@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn.intro-azure-container-apps
+metadata:
+  title: Introduction to Azure Container Apps
+  description: Learn how to
+  ms.date: 04/28/2022
+  author: saifeemustafaq
+  ms.author: msaifee
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Introduction to Azure Container Apps
+summary: Learn what is Azure Container Apps, when to use it and how it works.
+abstract: |
+  In this module you'll learn:
+  - What is Azure Container Apps
+  - How Azure Container Apps works and the logic behind it
+  - When to use Azure Container Apps
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+  - beginner
+roles:
+  - developer
+  - student
+products:
+  - azure-container-apps
+prerequisites: |
+  - Azure subscription - If you don't have an Azure subscription, you can create a free account before you begin.
+  - Basic knowledge of networking and operating system virtualization concepts.
+  - Basic knowledge of Kubernetes and its functions.
+  - Basic familiarity with Microservice Architecture.
+units:
+  - learn.intro-azure-container-apps.introduction
+  - learn.intro-azure-container-apps.what-azure-container-app
+  - learn.intro-azure-container-apps.how-does-azure-container-app-work
+  - learn.intro-azure-container-apps.when-use-azure-container-app
+  - learn.intro-azure-container-apps.summary
+badge:
+  uid: learn.intro-azure-container-apps.badge

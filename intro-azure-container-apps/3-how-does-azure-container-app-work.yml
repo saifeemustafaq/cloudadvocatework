@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-azure-container-apps.how-does-azure-container-app-work
+title: How does Azure Container Apps work?
+metadata:
+  title: How does Azure Container Apps work?
+  description: In this unit, you learn about how Azure Container Apps works along with some foundational concepts.
+  author: saifeemustafaq
+  ms.author: msaifee
+  ms.date: 04/28/2022
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+durationInMinutes: 7
+content: |
+  [!include[](includes/3-how-does-azure-container-app-work.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+    - content: "Azure Container Apps is a an orchestration service built upon."
+      choices:
+        - content: "Dapr"
+          isCorrect: false
+          explanation: "Incorrect! Distributed Application Runtime (Dapr) is a runtime system designed to support cloud native and serverless computing, Azure Container Apps allows you to build microservices with full support for Distributed Application Runtime (Dapr)."
+        - content: "KEDA"
+          isCorrect: false
+          explanation: "Incorrect! Kubernetes-based Event Driven Autoscaler (KEDA) allows you to scaling of any container in Kubernetes based on the number of events needing to be processed. Azure Container Apps allows you to dynamically scale your application based to HTTP traffic or events with the help of Kubernetes Event-Driven Autoscaling (KEDA)."
+        - content: "Kubernetes"
+          isCorrect: true
+          explanation: "Correct! Kubernetes is an open-source container orchestration system for automating software deployment, scaling, and management."
+
+    - content: "A new revision is created when "
+      choices:
+        - content: "The traffic splitting rules are changed."
+          isCorrect: false
+          explanation: "Incorrect! Changes to traffic splitting rules does not create a new revision"
+        - content: "You add or update scaling rules."
+          isCorrect: true
+          explanation: "Correct! New revisions are created when you add or update scaling rules."
+        - content: "You turn ingress on or off."
+          isCorrect: false
+          explanation: "Incorrect! new revisions are not created when you turn ingress on or off."
+
+    - content: "The containers shut down when"
+      choices:
+        - content: "a container app scales in."
+          isCorrect: true
+          explanation: "Correct! The containers shut down when a container app scales in"
+        - content: "there is a heavy traffic on the container app."
+          isCorrect: false
+          explanation: "Incorrect! The containers does not shut down when there is a heavy traffic on the container app."
+        - content: "the new container creation limit has been reached."
+          isCorrect: false
+          explanation: "Incorrect! There is no limit to container creation."
